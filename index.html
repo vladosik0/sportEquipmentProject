@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Sports Equipment</title>
 </head>
 <body>
@@ -20,7 +21,7 @@
 
     <main>
         <img style="width: 250px;" src="photos/image1.png">
-        <h2>Shop the latest Sports Equipment and Offers</h2>
+        <h2 class="title">Shop the latest Sports Equipment and Offers</h2>
         <p>Discover a wide range of high-quality sports equipment for all your athletic needs</p>
         <ul>
             <button>Explore</button>
@@ -31,27 +32,27 @@
         <h2>Sports equipment</h2>
         <p>Browse our wide selection of sports equipment</p>
 
-        <table>
+        <table class="shop">
             <tr>
-                <td>
+                <td class="sitem">
                     <img style="width: 100px;" src="photos/image2.png">
                     <h4>Basketball Hoop</h4>
                     <p>Standard</p>
                     <h4>99$</h4>
                 </td>
-                <td>
+                <td class="sitem">
                     <img style="width: 100px;" src="photos/image3.png">
                     <h4>Tennis Racket</h4>
                     <p>Beginner</p>
                     <h4>49$</h4>
                 </td>
-                <td>
+                <td class="sitem">
                     <img style="width: 100px;" src="photos/image4.png">
                     <h4>Yoga Mat</h4>
                     <p>Eco-friendly</p>
                     <h4>29$</h4>
                 </td>
-                <td>
+                <td class="sitem">
                     <img style="width: 100px;" src="photos/image5.png">
                     <h4>Football</h4>
                     <p>Size 5</p>
@@ -86,7 +87,7 @@
             </tr>
         </table>
 
-        <button>View all</button>
+        <button id="rcorners">View all</button>
 
         <h3>Discover the best sporting equipment for your active lifestyle</h3>
         <img style="width: 300px;" src="photos/image10.png">
@@ -157,8 +158,10 @@
                 <td>Sitemap</td>
             </tr>
         </table>
+        <div>
         <h5>Subscribe</h5>
         <p>Join our mailing list for the latest updates and promotions.</p>
+        </div>
         <form>
             <input type="email" placeholder="Enter email address">
             <input type = "submit" value="Submit">
