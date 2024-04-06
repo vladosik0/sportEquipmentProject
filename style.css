@@ -66,6 +66,11 @@ div.top{
     background-color: lightgray;
 }
 
+h1.shop {
+    float: left;
+    font-size: 300%;
+}
+
 div.description {
     max-width: 100%;
     margin-top: 5%;
