@@ -210,6 +210,7 @@ div.footer_info_links {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    max-width: 100%;
 }
 
 div.footer_topic {
