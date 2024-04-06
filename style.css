@@ -360,6 +360,11 @@ div.footer_socials a {
         padding: 10px;
     }
 
+    a#explore {
+    padding: 10px;
+    font-size: 14px;
+    }
+
     div.description_options {
         font-size: 14px;
     }
