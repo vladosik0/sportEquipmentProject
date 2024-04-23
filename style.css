@@ -66,6 +66,11 @@ div.top{
     background-color: lightgray;
 }
 
+h1.shop {
+    float: left;
+    font-size: 300%;
+}
+
 div.description {
     max-width: 100%;
     margin-top: 5%;
@@ -336,6 +341,10 @@ div.footer_socials a {
         padding: 10px;
     }
 
+    h1.shop {
+    font-size: 150%;
+    }
+
     .showcase {
         flex-direction: column; 
         align-items: center; 
@@ -358,6 +367,11 @@ div.footer_socials a {
         padding: 10px;
     }
 
+    a#explore {
+    padding: 10px;
+    font-size: 14px;
+    }
+
     div.description_options {
         font-size: 14px;
     }
@@ -368,7 +382,7 @@ div.footer_socials a {
     }
 
     footer {
-        font-size: 100%;
+        font-size: 90%;
     }
 
 }
