@@ -108,7 +108,7 @@ a#learn_more, a#contact {
     border-style: solid;
 }
 
-a#view_all {
+button#view_all {
     border: 1px black;
     float: left;
     align-self: center;
@@ -119,6 +119,13 @@ a#view_all {
     text-decoration: none;
     font-size: 17px;
     border-style: solid;
+}
+
+div#button-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the button */
+    align-items: center; /* Vertically center the button */
+    height: 10vh; /* Adjust the height as needed */
 }
 
 div.showcase_description, div.questions {
